@@ -1,0 +1,24 @@
+﻿生成启动时间为 2017/12/15 17:16:23。
+     1>项目“D:\工作任务\代码收藏\STL\AVLTREE\AVLTREE\AVLTREE.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>d:\工作任务\代码收藏\stl\avltree\avltree\avl.h(28): error C2955: “node”: 使用 类 模板 需要 模板 参数列表
+                 d:\工作任务\代码收藏\stl\avltree\avltree\avl.h(7) : 参见“node”的声明
+                 d:\工作任务\代码收藏\stl\avltree\avltree\avl.h(27): 编译类 模板 成员函数“node<T> *AVL_TREE<T>::allocate(void)”时
+                 with
+                 [
+                     T=int
+                 ]
+                 d:\工作任务\代码收藏\stl\avltree\avltree\avl.h(19): 参见对正在编译的函数 模板 实例化“node<T> *AVL_TREE<T>::allocate(void)”的引用
+                 with
+                 [
+                     T=int
+                 ]
+                 d:\工作任务\代码收藏\stl\avltree\avltree\test.cpp(5): 参见对正在编译的类 模板 实例化“AVL_TREE<int>”的引用
+     1>d:\工作任务\代码收藏\stl\avltree\avltree\avl.h(28): error C2512: “node”: 没有合适的默认构造函数可用
+     1>已完成生成项目“D:\工作任务\代码收藏\STL\AVLTREE\AVLTREE\AVLTREE.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.07
